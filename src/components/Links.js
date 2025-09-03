@@ -8,7 +8,7 @@ function Links() {
 
     const link = pages.map(num => 
       <div key ={num}> 
-          <a href='lien' className='link_surv'>{num}</a> 
+          <a href='#food' className='link_surv'>{num}</a> 
       </div>
     )
     

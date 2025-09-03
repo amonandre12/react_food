@@ -10,7 +10,7 @@ function Menu({isOpen , closeMenu}) {
         <ul className = "links"> 
 
             <div className='link_color'>
-            <li><a href="closeMenu" onClick ={closeMenu} > Close Menu</a></li> 
+            <li><a href="#food" onClick ={closeMenu} > Close Menu</a></li> 
             </div>
 
             <div className='link_color'>
