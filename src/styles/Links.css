@@ -1,0 +1,25 @@
+.links_group {
+    display : flex; 
+    flex-direction: row ;
+    gap : 30px;
+    justify-content:center;
+    margin-top: 60px;
+}
+
+.links_group button {
+    width: 15px;
+    height: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+
+.links_group a {
+    text-decoration: none ; 
+    color:black;
+    width: 100px;
+    height: 100px;
+}

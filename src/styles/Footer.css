@@ -1,0 +1,37 @@
+/* The styles for footer */
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.footer_content .footer_img  {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     
+}
+
+.footer_content .footer_img img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.img_flex {
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+    justify-items: center;
+}
+
+.footer_content  a {
+    color: black;
+}
+
+.img_flex:hover {
+     background-color:#848C8E; 
+}

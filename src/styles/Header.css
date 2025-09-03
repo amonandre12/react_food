@@ -1,0 +1,26 @@
+.header {
+    display:flex; 
+    flex-direction : row; 
+    justify-content:space-between;
+    position:sticky;
+    top: 0;
+}
+
+.header_image {
+    margin-left:80px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.header_image:hover {
+    background-color:#848C8E; 
+    
+}
+
+.header_logo {
+    height:25px;
+}
+
+.header_mail {
+    margin-right:80px;
+}
